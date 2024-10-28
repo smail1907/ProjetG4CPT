@@ -1,4 +1,2 @@
-2024-10-14 - 23:42 - toulouse : +18°C - +18°C
-2024-10-14 - 23:42 - pau : +17°C - +17°C
-2024-10-14 - 23:43 - lyon : +17°C - +17°C
-2024-10-14 - 23:43 - Brest : +15°C - +15°C
+Aucune ville fournie, utilisation de la ville par défaut : Paris
+2024-10-28 - 21:08 - Paris : +14°C - +14°C
