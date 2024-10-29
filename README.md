@@ -1,2 +1,4 @@
 # ProjetG4CPT
 L’objectif de ce projet est de créer un script Shell qui extrait périodiquement la température actuelle d'une ville donnée ainsi que les prévisions météorologiques pour le lendemain en utilisant le service wttr.in. Le script enregistrera les informations extraites dans un fichier texte, chaque enregistrement devant apparaître sur une seule ligne. 
+Explication variante 1 et 2
+Tout d'abord j'ai recuperé la version 1 ensuite j'ai modifié le script afin  de recuperer la  vitesse du vent , le taux humidité ainsi que la visiblité ces modifications ont eu lieu sur la branche safiaDeve1.Lorsque l'utilisateur fournit la ville et ensuite il execute la commande meteo.txt,il aura les informations en format txt et si il execute la commande meteo.json les informations seront fourni en format json
