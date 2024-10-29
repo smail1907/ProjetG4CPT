@@ -10,3 +10,6 @@
 2024-10-17 - 23:50 - toulouse : +13°C - +13°C
 2024-10-17 - 23:50 - pekin : +15°C - +15°C
 2024-10-17 - 23:50 - moscou : +5°C - +5°C
+2024-10-29 - 16:39 - toulouse : +20°C - Prévision demain : +20°C
+2024-10-29 - 16:41 - toulouse : +20°C - Prévision demain : +20°C
+2024-10-29 - 16:41 - Paris : +19°C - Prévision demain : +19°C
