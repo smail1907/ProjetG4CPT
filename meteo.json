@@ -1,0 +1,110 @@
+{
+  "date": "",
+  "heure": "",
+  "ville": "",
+  "temperature": "",
+  "prevision": "",
+  "vent": "→5km/h",
+  "humidite": "56%",
+  "visibilite": ""
+}
+{
+  "date": "",
+  "heure": "",
+  "ville": "",
+  "temperature": "",
+  "prevision": "",
+  "vent": "→5km/h",
+  "humidite": "56%",
+  "visibilite": ""
+}
+{
+  "date": "2024-10-29",
+  "heure": "18:56",
+  "ville": "paris",
+  "temperature": "+19°C →5km/h 56% ",
+  "prevision": "+19°C",
+  "vent": "→5km/h",
+  "humidite": "56%",
+  "visibilite": ""
+}
+{
+  "date": "2024-10-29",
+  "heure": "19:03",
+  "ville": "paris",
+  "temperature": "+19°C →5km/h 56% ",
+  "prevision": "+19°C",
+  "vent": "→5km/h",
+  "humidite": "56%",
+  "visibilite": ""
+}
+{
+  "date": "2024-10-29",
+  "heure": "19:04",
+  "ville": "paris",
+  "temperature": "+19°C 19:04:17+0100 →5km/h 56% ",
+  "prevision": "+19°C",
+  "vent": "19:04:17+0100",
+  "humidite": "→5km/h",
+  "visibilite": "56%"
+}
+{
+  "date": "2024-10-29",
+  "heure": "19:05",
+  "ville": "toulouse",
+  "temperature": "+19°C ↖17km/h 73% ",
+  "prevision": "+19°C",
+  "vent": "↖17km/h",
+  "humidite": "73%",
+  "visibilite": ""
+}
+{
+  "date": "2024-10-29",
+  "heure": "19:09",
+  "ville": "pau",
+  "temperature": "+15°C ↖4km/h 88% ",
+  "prevision": "+15°C",
+  "vent": "↖4km/h",
+  "humidite": "88%",
+  "visibilite": ""
+}
+{
+  "date": "2024-10-29",
+  "heure": "19:13",
+  "ville": "nantes",
+  "temperature": "+12°C",
+  "prevision": "+12°C",
+  "vent": "↙11km/h",
+  "humidite": "94%",
+  "visibilite": ""
+}
+{
+  "date": "2024-10-29",
+  "heure": "19:15",
+  "ville": "paris",
+  "temperature": "+19°C",
+  "prevision": "+19°C",
+  "vent": "→5km/h",
+  "humidite": "56%",
+  "visibilite": ""
+}
+{
+  "date": "2024-10-29",
+  "heure": "19:29",
+  "ville": "paris",
+  "temperature": "+19°C",
+  "prevision": "+19°C",
+  "vent": "→5km/h",
+  "humidite": "56%",
+  "visibilite": ""
+}
+{
+  "date": "2024-10-29",
+  "heure": "19:43",
+  "ville": "paris",
+  "temperature": "+19°C",
+  "prevision": "+19°C",
+  "vent": "→5km/h",
+  "humidite": "56%",
+  "visibilite": ""
+}

@@ -10,3 +10,15 @@
 2024-10-17 - 23:50 - toulouse : +13°C - +13°C
 2024-10-17 - 23:50 - pekin : +15°C - +15°C
 2024-10-17 - 23:50 - moscou : +5°C - +5°C
+2024-10-28 - 15:28 - toulouse : +16°C - +16°C
+2024-10-28 - 15:28 - Toulouse : +16°C - +16°C
+2024-10-28 - 15:30 - PARIS :  - 
+2024-10-28 - 15:31 - Toulouse : +16°C - +16°C
+2024-10-28 - 15:31 - Tulouse : +22°C - +22°C
+2024-10-28 - 15:34 - Paris : +14°C - +14°C
+2024-10-28 - 16:25 - paris : +16°C - +16°C
+2024-10-28 - 16:57 - Paris : +16°C - +16°C - vent : - humidité :  - visibilité: 
+2024-10-28 - 16:59 - toulouse : +17°C - +17°C - vent : - humidité :  - visibilité: 
+2024-10-28 - 17:32 - paris :  - +16°C - vent : - humidité :  - visibilité: 
+2024-10-28 - 17:34 - paris : +16°C ↗10km/h 82%  - +16°C - vent :↗10km/h - humidité : 82% - visibilité: 
+2024-10-28 - 22:20 -  : +5°C ↘4km/h 95%  - +5°C - vent :↘4km/h - humidité : 95% - visibilité: 
