@@ -1,13 +1,27 @@
 #!/bin/bash
-#Demandez à l'utilisateur une ville
-echo "Entrez une ville:"
+# Script de récupération de la météo avec ville par défaut
+
+# Demande à l'utilisateur de saisir une ville
+echo "Entrez une ville :"
 read ville
-#Récuperer les données météo de la ville rentrée par l'utilisateur
+
+# Ville par défaut
+ville_defaut="Paris"
+
+# Utilise la ville par défaut si aucune ville n'est saisie
+if [ -z "$ville" ]; then
+    ville=$ville_defaut
+    echo "Aucune ville fournie, utilisation de la ville par défaut : $ville"
+fi
+
+# Récupère la météo actuelle et la prévision pour demain
 meteo=$(curl -s "wttr.in/$ville?format=%t")
-#Récuperation  des previsions du lendemain
 prevision_demain=$(curl -s "wttr.in/$ville?format=%t&tomorrow")
-#date et l'heure actuelles
+
+# Récupère la date et l'heure actuelles
 date=$(date '+%Y-%m-%d')
 heure=$(date '+%H:%M')
-echo "$date - $heure - $ville : $meteo - $prevision_demain">>meteo.txt
+echo "$date - $heure - $ville : $meteo - Prévision demain : $prevision_demain"
+# Enregistre les informations dans le fichier meteo.txt
+echo "$date - $heure - $ville : $meteo - Prévision demain : $prevision_demain" >> meteo.txt
 
