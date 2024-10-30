@@ -1,1 +1,0 @@
-Dans cette version une nous avons extrait les données meteo d'une ville qui sera entrée par l'utilisateur et enregistrer ces données dans un fichier text;le script est dans un fichier Extracteur_Météo et sa sortie sera redirigée vers le fichier meteo.txt.
