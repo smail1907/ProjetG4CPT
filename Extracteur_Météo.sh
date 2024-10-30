@@ -25,3 +25,8 @@ echo "$date - $heure - $ville : $meteo - Prévision demain : $prevision_demain"
 # Enregistre les informations dans le fichier meteo.txt
 echo "$date - $heure - $ville : $meteo - Prévision demain : $prevision_demain" >> meteo.txt
 
+date_fichier=$(date '+%Y%m%d')
+fichier_archive="meteo_${date_fichier}.txt"
+echo "$date - $heure - $ville : $meteo - Prévision demain : $prevision_demain" >> "$fichier_archive"
+echo "Les données météo ont été enregistrées dans $fichier_archive"
+
