@@ -21,12 +21,18 @@ prevision_demain=$(curl -s "wttr.in/$ville?format=%t&tomorrow")
 # Récupère la date et l'heure actuelles
 date=$(date '+%Y-%m-%d')
 heure=$(date '+%H:%M')
-echo "$date - $heure - $ville : $meteo - Prévision demain : $prevision_demain"
+if [ -z "$meteo" ] || [ -z "$prevision_demain" ]; then
+    # Enregistre l'erreur avec un timestamp dans le fichier meteo_error.log
+    echo "$date $heure - Erreur : Impossible de récupérer les données météo pour $ville" >> meteo_error.log
+    echo "Une erreur est survenue lors de la récupération des données météo. Consultez meteo_error.log pour plus de détails."
+
+else
+  echo "$date - $heure - $ville : $meteo - Prévision demain : $prevision_demain"
 # Enregistre les informations dans le fichier meteo.txt
-echo "$date - $heure - $ville : $meteo - Prévision demain : $prevision_demain" >> meteo.txt
+  echo "$date - $heure - $ville : $meteo - Prévision demain : $prevision_demain" >> meteo.txt
 
-date_fichier=$(date '+%Y%m%d')
-fichier_archive="meteo_${date_fichier}.txt"
-echo "$date - $heure - $ville : $meteo - Prévision demain : $prevision_demain" >> "$fichier_archive"
-echo "Les données météo ont été enregistrées dans $fichier_archive"
-
+  date_fichier=$(date '+%Y%m%d')
+  fichier_archive="meteo_${date_fichier}.txt"
+  echo "$date - $heure - $ville : $meteo - Prévision demain : $prevision_demain" >> "$fichier_archive"
+  echo "Les données météo ont été enregistrées dans $fichier_archive"
+fi
